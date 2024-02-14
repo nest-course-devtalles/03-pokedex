@@ -1,0 +1,30 @@
+
+###  get all
+GET http://localhost:3000/api/v2/pokemon
+
+###  get by id 
+GET http://localhost:3000/api/v2/pokemon/pika
+
+###  create
+POST  http://localhost:3000/api/v2/pokemon HTTP/1.1
+content-type: application/json
+
+{
+    "no": 1,
+    "name": "pika"
+    
+  
+}
+
+###  update
+PATCH   http://localhost:3000/api/v2/pokemon/65c6d08b7c74e1fcac07b80e
+content-type: application/json
+
+{
+    "name":"squirt1",
+    "no":1
+}
+
+###  delete
+DELETE  http://localhost:3000/api/v2/pokemon/65cd2a7ae48e9e2ff306ed94
+content-type: application/json
