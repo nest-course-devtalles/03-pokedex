@@ -22,6 +22,11 @@ yarn
 docker-compose up -d
 ```
 
+### Excute seed database
+
+GET http://localhost:3000/api/v2/seed
+
+
 ## Stack
 * Nest
 * MongoDb
