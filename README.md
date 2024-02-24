@@ -22,6 +22,16 @@ yarn
 docker-compose up -d
 ```
 
+### Clone file ```.env.template``` and rename to ```.env```
+
+ fill your values on .env file
+
+### Execute project
+ ```
+ yarn start:dev
+ ```
+
+
 ### Excute seed database
 
 GET http://localhost:3000/api/v2/seed

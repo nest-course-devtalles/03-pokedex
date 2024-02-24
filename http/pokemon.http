@@ -3,7 +3,7 @@
 GET http://localhost:3000/api/v2/pokemon
 
 ###  get all queryParamaters
-GET http://localhost:3000/api/v2/pokemon?limit=20&offset=-10
+GET http://localhost:3000/api/v2/pokemon?limit=2&offset=2
 
 ###  get by id 
 GET http://localhost:3000/api/v2/pokemon/bulbasaur
